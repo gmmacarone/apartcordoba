@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+h1{
+    font-family: Roboto Condensed;
+    color: white;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    font-size: 4pc;
+    text-shadow: 4px 4px 4px black;
+}
+
+h2{
+    font-family: Roboto Condensed;
+    color: white;
+    
+    font-size: 3pc;
+    text-shadow: 3px 3px 3px black;
+}
+
+h3{
+    font-family:Roboto Condensed;
+    color: white;
+    font-size: 2pc;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}

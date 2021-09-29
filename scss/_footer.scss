@@ -1,0 +1,62 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.animacion:hover{
+    animation-name: animacionRedes;
+    animation-iteration-count: infinite ;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes animacionRedes{
+    2%{transform: skew(20deg,15deg);}
+    8%{transform: skew(40deg,30deg);}
+}
+
+@media only screen and (min-width: 360px) {
+    .letra{
+        font-family:Roboto Condensed;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        text-shadow: 2px 2px 2px black;
+    }
+    .tamaño{
+        height: 30px;
+        width: 30px;
+    }
+    .mapa{
+        height: 200px;
+        width: 400px;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .letra{
+        font-family: Patrick hand;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 2px 2px 2px black;
+    }
+    .tamaño{
+        height: 60px;
+        width: 60px;
+    }
+    .mapa{
+        height: 200px;
+        width: 400px;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
