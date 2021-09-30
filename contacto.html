@@ -1,36 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <meta name="description" content="Formulario de contacto">
+  <meta name="keyword" content="Hablar,Estadía,Córdoba,Capital">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/destino.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <title>Contáctanos</title>
 </head>
+
 <body>
-    <nav>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sucursales.html">Sucursales</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="servicios.html">Servicios</a>
-            </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tour.html">Tour</a>
-            </li>
-            </li>
-            <li class="nav-item">
-             <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-    <main></main>
-    <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
+
+  <nav>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sucursales.html">Sucursales</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="servicios.html">Servicios</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tour.html">Tour</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="well well-sm">
+            <form class="form-horizontal" method="post">
+              <fieldset>
+                <legend class="text-center header">Contact us</legend>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i
+                      class="fa fa-pencil-square-o bigicon"></i></span>
+                  <div class="col-md-8">
+                    <textarea class="form-control" id="message" name="message"
+                      placeholder="Envíanos tu mensaje. Te responderemos en un máximo de 48hs hábiles."
+                      rows="7"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <iframe class="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.756931048565!2d-64.19748528515798!3d-31.420822403609897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a27df82763eb%3A0x9a90e39ed12b9f10!2sRed%20Nexos!5e0!3m2!1ses!2sar!4v1632955782255!5m2!1ses!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class="letra">
+        &copy; 2021 Apart Córdoba <br>- Córdoba Capital - Argentina -<br>Telefonos +54-9-3516357417 </div>
+
+      <div>
+        <a href="https://www.facebook.com/Apart-C%C3%B3rdoba-403666570392978" target="_blank" title="Apart Córdoba"><img
+            class="tamaño animacion" src="multimedia/facebook.png" alt=""></a>
+        <a href="https://www.facebook.com/Apart-C%C3%B3rdoba-403666570392978" target="_blank" title="Apart Córdoba"><img
+            class="tamaño animacion" src="multimedia/instagram.png" alt=""></a>
+        <a href="https://www.facebook.com/Apart-C%C3%B3rdoba-403666570392978" target="_blank" title="Apart Córdoba"><img
+            class="tamaño animacion" src="multimedia/whatpss.png" alt=""></a>
+      </div>
+    </footer>
+
+
+  </main>
+
+
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
 </html>

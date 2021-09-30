@@ -34,13 +34,21 @@ h1 {
 h2 {
   font-family: Roboto Condensed;
   color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 3pc;
   text-shadow: 3px 3px 3px black; }
 
 h3 {
   font-family: Roboto Condensed;
   color: white;
-  font-size: 2pc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 35px;
   text-shadow: 0.5px 0.5px 0.5px black; }
 
 footer {
@@ -96,3 +104,44 @@ footer {
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 30px; } }
+
+.titulos {
+  font-family: Roboto Condensed;
+  color: white;
+  font-weight: bold;
+  margin-top: 99px;
+  margin-bottom: 30px;
+  font-size: 3pc;
+  text-shadow: 4px 4px 4px black; }
+
+.descripcion {
+  font-family: Roboto Condensed;
+  color: white;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2pc;
+  text-shadow: 4px 4px 4px black; }
+
+.fotoServ {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 30%;
+  margin-bottom: 90%; }
+
+.fotoTour {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 30%;
+  margin-bottom: 90%; }
+
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px; }
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF; }
