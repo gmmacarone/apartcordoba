@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   /* Ubicación de la imagen */
-  background-image: url("/multimedia/CbaNocturna.jpg");
+  background-image: url("../multimedia/CbaNocturna.jpg");
   /* Para dejar la imagen de fondo centrada, vertical y
     horizontalmente */
   background-position: center center;
