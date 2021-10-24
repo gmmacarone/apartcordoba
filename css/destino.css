@@ -175,17 +175,17 @@ footer {
   border: solid 4px white; }
 
 .fotoServ {
-  width: 35%;
-  height: 35%;
+  width: 400px;
+  height: auto;
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
   border: solid 4px white;
-  animation-name: efecto;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
-  animation-delay: 0s; }
+  /* animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s; */ }
 
 @keyframes efecto {
   0% {
@@ -194,8 +194,8 @@ footer {
     border: solid 10px #d8d8d6; } }
 
 .fotoTour {
-  width: 50%;
-  height: 50%;
+  width: 400px;
+  height: auto;
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
