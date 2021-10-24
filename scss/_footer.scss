@@ -4,7 +4,16 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: solid 4px white;
+    
 }
+
+
+
 
 .animacion:hover{
     animation-name: animacionRedes;
@@ -12,7 +21,10 @@ footer{
     animation-duration: 2s;
     animation-delay: 0s;
     animation-timing-function: ease-in;
+    
 }
+
+
 
 @keyframes animacionRedes{
     2%{transform: skew(20deg,15deg);}
